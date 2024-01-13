@@ -1,0 +1,61 @@
+pre{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 500px;
+    width: 500px;
+ 
+    animation: colorchange 3s infinite ;
+    position: relative;
+    border-radius:300px; 
+}
+body{
+    background-image: url("1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:relative;
+    background-position: center;
+
+}
+
+@keyframes colorchange
+{
+0%{
+    background:rgb(236, 12, 113);
+    left:0px;
+    top:0px;
+}
+15%{ 
+    background:#91ff00;
+    
+}
+25%{
+    background:rgb(0, 255, 195) ;
+    left:300px;
+    top:0px;
+    
+   
+
+}
+50%
+{
+    background:#fb00ffe7;
+    top:300px;
+    left:300px;
+   
+}
+65%{
+    background:rgb(222, 236, 21);
+
+}
+75%{
+   
+    background:rgb(9, 184, 35);
+    left:0px;
+    top:300px;   
+}
+
+100%{ background:red;
+    left:0px;
+    top:0px;   
+}
+}

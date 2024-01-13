@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>my forms
+            <h1> Basic forms</h1>
+        </title>
+    </head>
+    <body>
+        <form action ="#">
+            <fieldset>
+                <legend><h1>Form</h1></legend>
+           <b> <label>Name: </label></b><input type="text" name="username" placeholder="fullname" pattern="[A-Z][a-z]*"/><br><br>
+            <input type="submit" name="submit"/><br><br>
+
+            <label>Password</label>
+            <input type="password" name="password" placeholder="validPassword" required/><br><br>
+
+            <label>Age</label>
+            <input type="number" name="uage" placeholder="Enter the valid age" min="21" max="40" step="2" required/><br><br>
+
+            <label>email</label>
+            <input type="email" name="ue"  required/><br><br>
+
+            <label>DOB</label>
+            <input type="date" name="udob" /><br><br>
+
+            <label>color</label>
+            <input type="color" name="uc"/><br><br>
+
+            <label>Salary Range</label>
+            <input type="range" name="urange"/><br><br>
+
+            <label>Telephone</label>
+            <input name="telephone" name="ut" />
+
+            <label>Time</label>
+            <input type="time" name="ut"/>
+
+            <h1><u>Radio buttons</u></h1>
+
+           <label>Male  </label> <input type="radio" name="gender"/><br><br>
+           <label>FeMale</label> <input type="radio" name="gender"/><br><br>
+           <label>Others</label> <input type="radio" name="gender"/><br><br>
+
+           <h1><u>The use of checkBox</u></h1><br><br>
+           <lable><b><u>choose</lable></u></b><br><br/>
+           <lable>katrina</lable><input type="checkbox" name="cb1" value="kat"/><br/><br/>
+           <lable>Rcahitha</lable><input type="checkbox" name="cb2" value="rac"/><br/><br/>
+           <lable>Ramya</lable><input type="checkbox" name="cb3" value="ram"/><br/><br/>
+
+           <b><label>I agree terms and conditions</label></b>
+
+           <input type="checkbox" name="terms" required/>
+           <h1><u>Select and option elements</u></h1>
+           <label>Choose the cars</label>
+           <select name="cars" size="2">
+            <option>innova</option>
+           <option value="fiant" selected>Nexon</option>
+           <option>creta</option>
+           <option>erdiga</option>
+        </select>
+
+        <h1><u>"TextArea tag"</u></h1>
+        <label>Address</label>
+        <textarea rows="10" cols="30" name="message"></textarea><br><br>
+        <labels>Choose the browsers</labels> <input list ="browsers"/>
+        <datalist id="browsers" >
+            <option value="firebox">
+            <option value="chrome">
+            <option value="fireExplorer">
+            <option value="firebox">
+        </datalist>
+        <h1>"Output tag"</h1>
+        </fieldset>
+        </form>
+    </body>
+</html>
